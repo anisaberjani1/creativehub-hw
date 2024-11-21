@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+</head>
+<body>
+    <form>
+        <img src="./employee.png" alt="" width="50px" height="50px">
+        <h1>Employee Registration Form</h1>
+    
+        <input type="radio" name="status" value="Mr." checked>Mr.
+        <input type="radio" name="status" value="Mrs.">Mrs.
+        <input type="radio" name="status" value="Ms.">Ms.
+    
+        <p>
+            First Name:
+            <input type="text" placeholder="First Name" name="firstname">
+        </p>
+        <p>
+            Last Name:
+            <input type="text" placeholder="Last Name" name="lastname">
+        </p>
+        <p>
+            Mail Address1:
+            <input type="text" name="mailAddress1">
+        </p>
+        <p>
+            Mail Address2:
+            <input type="text" name="mailAddress2">
+        </p>
+        <p>
+            City:
+            <input type="text" name="city">
+        </p>
+    
+        <p>
+            State:
+            <select name="states">
+                <option value="Gujarat">Gujarat</option>
+                <option value="Hindi">Hindi</option>
+                <option value="English">English</option>
+                <option value="Marathi">Marathi</option>
+            </select>
+        </p>
+    
+        <p>
+            Zip:
+            <input type="text" name="zip">
+        </p>
+    
+        <p>
+            Upload Photo:
+            <input type="file" name="fileUrl">
+        </p>
+    
+        <p>
+            E-Mail:
+            <input type="email" name="email">
+        </p>
+    
+        <p>
+            Mobile:
+            <input type="tel" name="phone" placeholder="+91">
+        </p>
+    
+        <p>
+            Languages known:
+            <input type="checkbox" name="language" checked>Gujarati
+            <input type="checkbox" name="language" checked>Hindi
+            <input type="checkbox" name="language" checked>English
+            <input type="checkbox" name="language">Marathi
+        </p>
+    
+        <p>
+            Additional Information: 
+            <textarea name="info">Optional</textarea>
+        </p>
+    
+        <p>
+            <input type="submit" name="submit">
+            <input type="reset" name="reset">
+        </p>
+        
+    </form>
+</body>
+</html>

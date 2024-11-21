@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Your Details:</legend>
+        <p>
+            Name:
+            <input type="text" name="name">
+        </p>
+        <p>
+            Email:
+            <input type="email" name="email">
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Your Review:</legend>
+
+        <p>
+            How did you hear about us?
+            <select name="socials">
+                <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+            </select>
+        </p>
+
+        <p>
+            Would you visit again? 
+            <br>
+            <input type="radio" name="visits">Yes
+            <input type="radio" name="visits">No 
+            <input type="radio" name="visits">Maybe
+        </p>
+
+        <p>Comments:</p>
+        <textarea name="comments"></textarea>
+
+        <p>
+            <input type="checkbox" name="checking">
+            Sign me up for email updates
+        </p>
+
+        <input type="submit" value="Submit review">
+    </fieldset>
+    
+</body>
+</html>
