@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Registration</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="./music.png" alt="musicIcon" width="70px" width="70px">
+            </td>
+            <td>
+                <h1>Song Registration</h1>
+            </td>
+        </tr>
+    </table>
+
+    <form action="#" method="get">
+        <label for="">
+            Song Title:
+            <input type="text" name="title">
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Artist(s):
+            <input type="text" name="artist">
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Album:
+            <input type="text" name="album" placeholder="Enter album name (if any)">
+            <br>
+        </label>
+        <br>
+        <label for="">
+            Genre:
+            <input type="checkbox" name="rock"> Rock
+            <input type="checkbox" name="pop"> Pop music
+            <input type="checkbox" name="randb"> R & B
+            <input type="checkbox" name="country">Country music
+            <input type="checkbox" name="classical">Classical music
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Release Date:
+            <input type="date" name="date">
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Language:
+            <select name="languages" id="languages">
+                <option value="albanian">Albanian</option>
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="german">German</option>
+            </select>
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Song Audio:
+            <input type="file" name="audioFile" accept="audio/*">
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Lyrics:
+            <textarea name="lyrics" id="lyrics"></textarea>
+            <br>
+        </label>
+        <br>
+
+        <input type="submit" value="Add Song">
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Registration</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="./movieIcon.png" alt="movie icon" width="50px" height="50px">
+            </td>
+            <td>
+                <h1>Movie Registration</h1>
+            </td>
+        </tr>
+    </table>
+    
+    <form action="#" method="get">
+        <label for="">
+            Movie Title:
+            <input type="text" name="title">
+            <br>
+        </label>
+        <br>
+        <label for="">
+            Genre:
+            <select name="genres" id="genres">
+                <option value="Adventure">Adventure</option>
+                <option value="Action">Action</option>
+                <option value="Animation">Animation</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Horror">Horror</option>
+                <option value="Romance">Romance</option>
+            </select>
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Release Date:
+            <input type="date" name="date">
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Duration:
+            <input type="number" name="duration"> min
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Language:
+            <input type="text" name="language">
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Movie Image URL:
+            <input type="file" name="movieImg">
+            <br>
+        </label>
+        <br>
+
+        <label for="">
+            Description:
+            <textarea name="Description" id="description"></textarea>
+            <br>
+        </label>
+        <br>
+
+        <input type="submit" value="Add Movie">
+    </form>
+</body>
+</html>
