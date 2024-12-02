@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website 2</title>
+    <style>
+        table,th,td{
+            border: 1px solid black
+        }
+        label {
+            font-weight: bolder;
+        }
+        h2{
+            color: #f4686a;
+            font-weight: bolder;
+            font-size:xx-large;
+        }
+    </style>
+</head>
+<body>
+    <header class="header" style="text-align: center;">
+        <img src="./images/logo.png" alt="logo" width="350px" height="75px">
+    </header>
+    <div class="about-section">
+        <div>
+            <h1 style="color: #f4686a; font-weight: bold; font-size:xx-large;">About</h1>
+            <p style="font-size: large;">It can be intimidating for women to learn and ask questions when they are in an 
+                <strong style="font-size:xx-large; text-decoration: underline;">
+                    extreme minority</strong>. While open and welcoming, today's budding developer community is up to
+                    <strong style="font-size:xx-large; text-decoration: underline;">
+                        91% male</strong>. If we can empower more females with the confidence in their technological capabilities
+                        <em style="font-size: xx-large; text-decoration: underline; font-weight: bold;">we can begin to change this landscape</em>.
+
+            </p>
+        </div>
+    </div>
+    <main class="main-content" style="display: flex;">
+        <div class="left-side" style="flex: 1; margin-right: 10px;">
+            <div class="table-section">
+                <h2>Upcoming Classes</h2>
+                <table>
+                    <tr>
+                        <th>Location</th>
+                        <th>Topic</th>
+                    </tr>
+                    <tr>
+                        <td>New York</td>
+                        <td>Javascript & jQuery</td>
+                    </tr>
+                    <tr>
+                        <td>New York</td>
+                        <td>HTML & CSS</td>
+                    </tr>  
+                </table>
+            </div>
+            <div class="form-section">
+                <form action="#">
+                    <h2>Sign Up!</h2>
+                    <label for="">Name: </label>
+                    <input type="text" style="background-color: rgb(255, 219, 226); margin-bottom: 5px;">
+                    <br>
+                    <label for="">Email: </label>
+                    <input type="email" style="background-color: rgb(255, 219, 226); margin-bottom: 5px;">
+                    <br>
+                    <label for="">Location:</label>
+                    <select name="location-select" id="location">
+                        <option value="San Francisco">San Francisco</option>
+                        <option value="San Francisco">Prishtina</option>
+                    </select>
+                    <fieldset style="margin-bottom: 10px;">
+                        <legend style="font-weight: bolder;">Gender:</legend>
+                        <label for="">Female</label>
+                        <input type="radio">
+                        
+                        <label for="">Male</label>
+                        <input type="radio">
+                    </fieldset>
+    
+                    <label for="">Experience:</label>
+                    <br>
+                    <textarea name="experience-content" id="" style="margin-bottom: 10px;"></textarea>
+                    <br>
+                    <button>Sign up</button>
+                </form>
+            </div>
+        </div>
+        <aside class="right-side" style="flex: 1; border: 1px solid red; padding-left: 20px; background-color: rgb(245, 211, 217); margin: 0%;">
+            <h2>Projects</h2>
+            <ul>
+                <li>USA</li>
+                <ul>
+                    <li><a href="#">New York</a></li>
+                    <li><a href="#">Columbus</a></li>
+                    <li><a href="#">Austin</a></li>
+                    <li><a href="#">Philly</a></li>
+                </ul>
+                <li>World</li>
+                <ul>
+                    <li><a href="#">Ottawa</a></li>
+                    <li><a href="#">Sydney</a></li>
+                </ul>
+                    
+            </ul>
+        </aside>
+    </main>
+    <hr style="border: 2px dashed rgb(236, 183, 183);">
+    <footer style="text-align: center;">
+        <a href="#">Twitter</a> |
+        <a href="#">Facebook</a> |
+        <a href="#">Flickr</a>
+    </footer>
+    
+</body>
+</html>
