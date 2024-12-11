@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+}
+
+.margin-div{
+    background-color: blue;
+    width: 40%;
+    height: 50vh;
+    margin: 10% auto;
+    padding: 10px 10px 40px 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif
+}
+
+.margin-p{
+    color: white;
+}
+
+.border-div{
+    background-color: limegreen;
+    width: 80%;
+    height: 40vh;
+    margin: 10px auto 10px auto;
+    padding: 10px 0 5px 0;
+}
+
+.padding-div{
+    background-color: aquamarine;
+    width: 70%;
+    height: 27vh;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.content-div{
+    background-color: azure;
+    width: 50%;
+    height: 10vh;
+    margin: auto;
+    padding-top: 30px;
+}
