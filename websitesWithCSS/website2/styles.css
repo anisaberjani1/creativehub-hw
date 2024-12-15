@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.box{
+    width: 24%;
+    height: 90vh;
+    display: inline-block;
+    margin: 20px 0;
+    vertical-align: top; 
+}
+
+.box-header{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.box > p{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box-border{
+    border: 2px solid red;
+    width: 90%;
+    margin: 20px auto;
+    height: 70vh;
+}
